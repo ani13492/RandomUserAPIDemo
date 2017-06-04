@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private UserAdapter mAdapter;
     private APIservice mService;
 
+    int users = 10;
+
 
 
 
@@ -40,14 +42,15 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         mService = RetrofitBuilder.getAPIervice();
         mAdapter = new UserAdapter(new ArrayList<User>());
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(layoutManager);
-        mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setHasFixedSize(true);
 
         RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
         mRecyclerView.addItemDecoration(itemDecoration);
+
+        mRecyclerView.setAdapter(mAdapter);
 
         loadUsers();
 
@@ -57,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loadUsers() {
-        mService.getRandomUsers(9).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
+        mService.getRandomUsers(users).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<RandomUserResponse>() {
 
 

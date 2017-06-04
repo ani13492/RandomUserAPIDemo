@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Aniruddh/.android/build-cache/0c648ddfe4e79989c1f899e7a9a8e6890bfde21c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="/Users/Aniruddh/Downloads/RandomUser/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3921db0eba81bc84b0ea6803e3ac6ad8318d4660/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Aniruddh/Downloads/RandomUser/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -21,29 +12,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Aniruddh/.android/build-cache/45578037a7c023a2c5533546412fe261b85c1552/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="/Users/Aniruddh/Downloads/RandomUser/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_61f6b30e0fa0ee9edc7bea9a0fdaeed4e729d04d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Aniruddh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="/Users/Aniruddh/Downloads/RandomUser/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_9bb9362aee11ad7ca1231c252530544fd3045969/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Aniruddh/Downloads/RandomUser/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="573dc5ebbb09edf4f32fb955ae44581c57661b6c">
+        sha1="2dea28a52e82f310c1c6903362e7ed910e17fa51">
         <dex dex="/Users/Aniruddh/Downloads/RandomUser/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a241b482ded5e783a1f131a882eb362607381861/classes.dex" />
     </item>
 
