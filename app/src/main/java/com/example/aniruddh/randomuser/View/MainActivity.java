@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loadUsers() {
-        mService.getRandomUsers(1).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
+        mService.getRandomUsers(9).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<RandomUserResponse>() {
 
 
